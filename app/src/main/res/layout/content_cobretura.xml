@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+                style="@style/card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:layout_margin="@dimen/mg_linear_layout">
+
+                    <TextView
+                            android:text="Matriz"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" android:id="@+id/textView17"
+                            android:layout_weight="1"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" android:id="@+id/txtMatrizCobertura"
+                            android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:layout_margin="@dimen/mg_linear_layout">
+
+                    <TextView
+                            android:text="Data Cobertura"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" android:id="@+id/textView23"
+                            android:layout_weight="1"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" android:id="@+id/txtDataCobertura"
+                            android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:layout_margin="@dimen/mg_linear_layout">
+
+                    <TextView
+                            android:text="Funcionário"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" android:id="@+id/txtFuncionarioCobertura"
+                            android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

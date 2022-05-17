@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="card">
+        <item name="cardBackgroundColor">@color/bg_card_view</item>
+        <item name="cardCornerRadius">15dp</item>
+        <item name="cardElevation">15dp</item>
+    </style>
+    <style name="button">
+        <item name="backgroundColor">#1E88E5</item>
+    </style>
+</resources>

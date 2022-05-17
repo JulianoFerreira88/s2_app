@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">s2 mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maternidade">Maternidade</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="inserido_com_sucesso">Registro Inserido Com Sucesso!</string>
+    <string name="apagado_com_sucesso">Registro Excluído Com Sucesso!</string>
+    <string name="erro_servidor">Erro ao tentar Conectar ao Servidor!!</string>
+
+    <string name="hello_first_fragment">Ola Primeiro fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_matriz_view">Matriz</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_cobertura">Coberturas</string>
+    <!-- Strings used for fragments for navigation -->
+    <string-array name="palavras">
+        <item>Palavra 01</item>
+        <item>Palavra 02</item>
+        <item>Palavra 03</item>
+        <item>Palavra 04</item>
+        <item>Palavra 05</item>
+        <item>Palavra 06</item>
+    </string-array>
+    <string name="title_activity_relatorio">Relatório</string>
+    <string name="title_activity_esanraca">Raça</string>
+    <string name="title_activity_esanparto">Dados De Parto</string>
+    <string name="title_activity_esandesmame">Desmame</string>
+    <string name="title_activity_basic_entitie">Entitie</string>
+    <string name="title_activity_list_parto">Partos</string>
+    <string name="maternidade">Maternidade</string>
+    <string name="title_activity_list_cobertura">Coberturas</string>
+    <string name="title_activity_list_desmame">Desmames</string>
+    <string name="title_chart_activity">Graficos</string>
+    <string name="title_chart_matriz">Graficos Matriz</string>
+
+</resources>
