@@ -10,14 +10,20 @@
         <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
                                                       android:layout_height="match_parent"
                                                       android:id="@+id/graficoNascidosNatimortos"
-                                                      android:layout_weight="1"/>
+                                                      android:layout_weight="1"
+                                                      android:layout_margin="@dimen/mg_graficos"/>
         <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
                                                       android:layout_height="match_parent"
                                                       android:id="@+id/graficoNascidosTotais"
-                                                      android:layout_weight="1"/>
+                                                      android:layout_weight="1"
+                                                      android:layout_margin="@dimen/mg_graficos"/>
         <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
                                                       android:layout_height="match_parent"
-                                                      android:id="@+id/graficoNascidosVivos" android:layout_weight="1">
+                                                      android:id="@+id/graficoNascidosVivos" android:layout_weight="1"
+                                                      android:layout_margin="@dimen/mg_graficos">
         </com.github.mikephil.charting.charts.BarChart>
+        <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
+                                                      android:layout_height="wrap_content"
+                                                      android:id="@+id/graficoMumificados"/>
     </LinearLayout>
 </RelativeLayout>

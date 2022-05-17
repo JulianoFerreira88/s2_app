@@ -61,5 +61,6 @@
     <dimen name="dim_list_view">150dp</dimen>
     <dimen name="chart_dimen">200dp</dimen>
     <dimen name="chart_margin">5dp</dimen>
+    <dimen name="mg_graficos">10dp</dimen>
 
 </resources>

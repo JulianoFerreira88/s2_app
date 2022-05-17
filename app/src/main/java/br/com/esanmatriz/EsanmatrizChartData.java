@@ -34,4 +34,16 @@ public class EsanmatrizChartData extends Esanmatriz {
         data.addDataSet(dataSet);
         return data;
     }
+
+    public BarData getNatimortosBarData() {
+        return null;
+    }
+
+    public BarData getNascidosTotaisBarData() {
+        return null;
+    }
+
+    public BarData getMumificadosBarData() {
+        return null;
+    }
 }
