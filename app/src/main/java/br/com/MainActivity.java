@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import br.com.chart.ChartActivity;
 import br.com.databinding.ContentMainBinding;
 import br.com.esanmaternidade.EsanmaternidadeActivity;
+import br.com.esanmatriz.EsanmatrizGraficosActivity;
 
 public class MainActivity extends AppCompatActivity {
     private ContentMainBinding bind;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         bind = ContentMainBinding.inflate(getLayoutInflater());
         setContentView(bind.getRoot());
 
-        Intent i = new Intent(this, ChartActivity.class);
+        Intent i = new Intent(this, EsanmatrizGraficosActivity.class);
         startActivity(i);
     }
 

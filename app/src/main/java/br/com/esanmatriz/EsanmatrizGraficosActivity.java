@@ -15,7 +15,8 @@ public class EsanmatrizGraficosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_grafico_matriz);
         bind = ContentGraficoMatrizBinding.inflate(getLayoutInflater());
-        matriz = (EsanmatrizChartData) getIntent().getExtras().get("matriz");
+        //matriz = (EsanmatrizChartData) getIntent().getExtras().get("matriz");
+        matriz = new EsanmatrizChartData();
 
         bind.graficoNascidosVivos.setData(matriz.getNascidosVivosBarData());
         bind.graficoNascidosNatimortos.setData(matriz.getNatimortosBarData());
