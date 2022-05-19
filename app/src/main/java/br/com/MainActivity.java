@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         bind = ContentMainBinding.inflate(getLayoutInflater());
         setContentView(bind.getRoot());
 
-        Intent i = new Intent(this, EsanmatrizGraficosActivity.class);
+        Intent i = new Intent(this, EsanmaternidadeActivity.class);
         startActivity(i);
     }
 

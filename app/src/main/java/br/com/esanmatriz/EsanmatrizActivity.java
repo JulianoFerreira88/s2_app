@@ -66,7 +66,7 @@ public class EsanmatrizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(EsanmatrizActivity.this, EsanmatrizGraficosActivity.class);
-                i.putExtra("matriz", matriz);
+                i.putExtra("matriz", (EsanmatrizChartData)matriz);
                 startActivity(i);
             }
         });

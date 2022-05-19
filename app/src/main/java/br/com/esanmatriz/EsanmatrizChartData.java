@@ -48,7 +48,16 @@ public class EsanmatrizChartData extends Esanmatriz {
     }
 
     public BarData getNascidosTotaisBarData() {
-        return null;
+        List<BarEntry> entries = new ArrayList<>();
+        float count = 1f;
+        for (Esanparto parto : getPartos()) {
+            BarEntry entry = new BarEntry(count, (float) parto.getNascidosTotais());
+            entries.add(entry);
+            count += 1f;
+        }
+        BarDataSet dataSet = new BarDataSet(entries, "label");
+        BarData data = new BarData(dataSet);
+        return data;
     }
 
     public BarData getMumificadosBarData() {

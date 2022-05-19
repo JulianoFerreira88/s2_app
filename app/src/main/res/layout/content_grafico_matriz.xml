@@ -7,24 +7,41 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
-                                                      android:layout_height="200dp"
-                                                      android:id="@+id/graficoNascidosNatimortos"
-                                                      android:layout_weight="1"
-                                                      android:layout_margin="@dimen/mg_graficos"/>
-        <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
-                                                      android:layout_height="200dp"
-                                                      android:id="@+id/graficoNascidosTotais"
-                                                      android:layout_weight="1"
-                                                      android:layout_margin="@dimen/mg_graficos"/>
-        <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
-                                                      android:layout_height="200dp"
-                                                      android:id="@+id/graficoNascidosVivos" android:layout_weight="1"
-                                                      android:layout_margin="@dimen/mg_graficos">
-        </com.github.mikephil.charting.charts.BarChart>
-        <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
-                                                      android:layout_height="200dp"
-                                                      android:id="@+id/graficoMumificados" android:layout_weight="1"
-                                                      android:layout_margin="@dimen/mg_graficos"/>
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" style="@style/CardView">
+            <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
+                                                          android:layout_height="200dp"
+                                                          android:id="@+id/graficoNascidosNatimortos"
+                                                          android:layout_weight="1"
+            />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" style="@style/CardView">
+            <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
+                                                          android:layout_height="200dp"
+                                                          android:id="@+id/graficoNascidosTotais"
+                                                          android:layout_weight="1"
+            />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" style="@style/CardView">
+            <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
+                                                          android:layout_height="200dp"
+                                                          android:id="@+id/graficoNascidosVivos"
+                                                          android:layout_weight="1"
+            >
+            </com.github.mikephil.charting.charts.BarChart>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1" style="@style/CardView">
+            <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
+                                                          android:layout_height="200dp"
+                                                          android:id="@+id/graficoMumificados" android:layout_weight="1"
+            />
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
 </ScrollView>

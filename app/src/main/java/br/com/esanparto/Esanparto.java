@@ -169,5 +169,9 @@ public class Esanparto implements Serializable {
         double saldo = (nuvivo + nurecebido) - nudoado;
         return saldo;
     }
+
+    public double getNascidosTotais() {
+        return nuvivo + nunatimorto + numortoaonascer + numumificado;
+    }
 }
 
